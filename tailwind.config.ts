@@ -9,8 +9,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        navbar: "#282828", // Color de fondo del navbar
+        text: "#FFFFFF", // Texto blanco
+      },
+      fontFamily: {
+        sans: ["Arial", "sans-serif"], // Fuente básica, puedes cambiarla si lo necesitas
       },
     },
   },
