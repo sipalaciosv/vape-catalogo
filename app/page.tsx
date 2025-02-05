@@ -1,5 +1,5 @@
 import PublicLayout from "./public/layout"; // Importa el layout de rutas públicas
-
+import Link from "next/link";
 export default function Home() {
   return (
     <PublicLayout>
@@ -20,12 +20,9 @@ export default function Home() {
             <p className="mt-4 text-lg md:text-xl font-light">
               Explora nuestra selección de vapes de alta calidad.
             </p>
-            <a
-              href="/public/productos"
-              className="mt-6 px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-lg shadow-lg transition"
-            >
-              Ver Catálogo
-            </a>
+            <Link href="/public/productos" className="mt-6 px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-lg shadow-lg transition">
+  Ver Catálogo
+</Link>
           </div>
         </div>
 
